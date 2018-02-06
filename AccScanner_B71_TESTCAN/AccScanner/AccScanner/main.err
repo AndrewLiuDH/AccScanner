@@ -1,0 +1,2 @@
+[ Warning ] D:\ANDREW\HITECH\WORKSPACES 222\20171225\ACCSCANNER_B71_TESTCAN\ACCSCANNER\ACCSCANNER\MAIN.ASM (204) W801B:   'MOVR' Use instruction to clear interrupt flag may cause other interrupt flags accidentally cleared if other interrupts are issued immediately after.
+[ Warning ] D:\ANDREW\HITECH\WORKSPACES 222\20171225\ACCSCANNER_B71_TESTCAN\ACCSCANNER\ACCSCANNER\MAIN.ASM (235) W801B:   'MOVR' Use instruction to clear interrupt flag may cause other interrupt flags accidentally cleared if other interrupts are issued immediately after.

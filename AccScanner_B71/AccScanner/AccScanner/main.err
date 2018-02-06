@@ -1,0 +1,2 @@
+[ Warning ] D:\ANDREW\FORWELL\HOMEGAME\ACCSCANNER\ACCSCANNER_B71\ACCSCANNER\ACCSCANNER\MAIN.ASM (210) W801B:   'MOVR' Use instruction to clear interrupt flag may cause other interrupt flags accidentally cleared if other interrupts are issued immediately after.
+[ Warning ] D:\ANDREW\FORWELL\HOMEGAME\ACCSCANNER\ACCSCANNER_B71\ACCSCANNER\ACCSCANNER\MAIN.ASM (241) W801B:   'MOVR' Use instruction to clear interrupt flag may cause other interrupt flags accidentally cleared if other interrupts are issued immediately after.

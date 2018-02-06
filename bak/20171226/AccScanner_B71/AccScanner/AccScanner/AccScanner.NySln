@@ -1,0 +1,19 @@
+﻿
+Nyquest IDE Solution File, Format Version 1.00
+# NYIDE 2.80.0.974
+Project("{B1647980-B642-454F-99B0-4BB03538C058}") = "AccScanner", "AccScanner.naprj", "{9210FF34-3583-45B9-8273-19EEB8FED02A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AsmNy8 = Debug|AsmNy8
+		Release|AsmNy8 = Release|AsmNy8
+		Debug|AsmNy8 = Debug|AsmNy8
+		Release|AsmNy8 = Release|AsmNy8
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9210FF34-3583-45B9-8273-19EEB8FED02A}.Debug|AsmNy8.Build.0 = Debug|AsmNy8
+		{9210FF34-3583-45B9-8273-19EEB8FED02A}.Debug|AsmNy8.ActiveCfg = Debug|AsmNy8
+		{9210FF34-3583-45B9-8273-19EEB8FED02A}.Release|AsmNy8.Build.0 = Release|AsmNy8
+		{9210FF34-3583-45B9-8273-19EEB8FED02A}.Release|AsmNy8.ActiveCfg = Release|AsmNy8
+	EndGlobalSection
+EndGlobal

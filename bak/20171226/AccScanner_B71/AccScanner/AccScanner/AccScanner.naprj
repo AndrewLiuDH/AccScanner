@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup Condition="">
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>AccScanner</AssemblyName>
+    <Bank0Only>False</Bank0Only>
+    <ChipId>NY8B071A</ChipId>
+    <ClientName>AccScanner_B71</ClientName>
+    <Configuration>Debug</Configuration>
+    <GenAsmListFile>True</GenAsmListFile>
+    <GenListFile>True</GenListFile>
+    <GenMapFile>True</GenMapFile>
+    <InitializeBss>True</InitializeBss>
+    <IsBankselOpt>True</IsBankselOpt>
+    <OutputType>bin</OutputType>
+    <Platform>AsmNy8</Platform>
+    <ProjectGuid>{9210FF34-3583-45B9-8273-19EEB8FED02A}</ProjectGuid>
+    <ProjectOptionChanged>False</ProjectOptionChanged>
+    <ReservedRam>16</ReservedRam>
+    <RootNamespace>AccScanner</RootNamespace>
+    <TrimSetting>+ 0%</TrimSetting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="AccScanner.cb" EntryPoint="false" MetaData="" />
+    <None Include="AT8B.H" EntryPoint="false" MetaData="" />
+    <Compile Include="main.asm" EntryPoint="true" MetaData="" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Client: AccScanner_B71" EntryPoint="false" MetaData="" />
+    <Reference Include="Config Block: AccScanner.cb" EntryPoint="false" MetaData="" />
+    <Reference Include="IC Body: AT8B71A" EntryPoint="false" MetaData="" />
+  </ItemGroup>
+  <Properties>
+    <Array name="bookmarks" />
+    <Array name="DisassemblyPadColumnWidthInfo">
+      <Element value="AddrWidth|60" />
+      <Element value="CodeWidth|140" />
+      <Element value="ArrowWidth|20" />
+    </Array>
+    <Array name="files">
+      <Element value="main.asm|True" />
+      <Element value="AT8B.H|False" />
+    </Array>
+    <Array name="MelodyDatabaseFiles" />
+    <Array name="WatchItemInfo" />
+    <Array name="WatchPadColumnWidthInfo">
+      <Element value="NameWidth|50" />
+      <Element value="AddrWidth|50" />
+      <Element value="ValWidth|50" />
+      <Element value="PageWidth|50" />
+    </Array>
+  </Properties>
+</Project>
