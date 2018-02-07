@@ -1,5 +1,4 @@
-; Chip Register Define
-;; Register R
+
 		INDF		EQU	0x00
 		TMR0		EQU	0x01
 		PCL		EQU	0x02
